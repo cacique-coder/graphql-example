@@ -1,0 +1,12 @@
+p#notice = notice
+
+p
+  strong Post:
+  = @comment.post
+p
+  strong Message:
+  = @comment.message
+
+= link_to 'Edit', edit_comment_path(@comment)
+'  |
+= link_to 'Back', comments_path
