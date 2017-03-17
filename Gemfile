@@ -14,7 +14,7 @@ gem 'uglifier', '>= 1.3.0'
 gem 'slim-rails'
 gem 'formtastic'
 gem 'graphql'
-gem 'react_on_rails', '~> 6'
+gem "graphiql-rails"
 
 group :test do
   gem 'rspec-rails'
